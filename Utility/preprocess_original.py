@@ -2,6 +2,10 @@ import os
 import numpy as np
 from pygments.lexer import include
 
+# this file was used to sepearte the ['4019', '4280', '42731', '41401', '5849', '25000', '51881', '5990'] ICD9s 
+# from MIMICIII database 
+# You can get this from the MIMICIII database from the disease table 
+
 if __name__ == "__main__":
     main_path = os.path.join('data', 'MIMICIII_original')
     files = os.listdir(main_path)
@@ -12,7 +16,7 @@ if __name__ == "__main__":
 
             if 'Admission Date' in lines[1]:
                 print(file.name)
-    file = '/dspSharedData/TanbirFiles/ICD9-Classifier/mimic_data/adm_notes.npy'
+    file = 'mimic_data/adm_notes.npy'
     cui_list = ['4019', '4280', '42731', '41401', '5849', '25000', '51881', '5990']
     LABEL_COLUMNS = ['hypertension', 'congestive heart failure', 'atrial fibrillation', 'coronary atherosclerosis',
                      'aqcute kidney failure', 'diabetes mellitus type 2', 'acute respiratry failure',

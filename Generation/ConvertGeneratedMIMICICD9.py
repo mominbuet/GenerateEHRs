@@ -1,6 +1,6 @@
 import os
 import numpy as np
-
+# utility file
 paths = ['generated_original_data5','generated_original_data6']
 ICD9s = ['hypertension', 'congestive heart failure', 'atrial fibrillation', 'coronary atherosclerosis',
          'aqcute kidney failure', 'diabetes mellitus type 2', 'acute respiratry failure', 'urinary tract infection']
