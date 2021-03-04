@@ -9,4 +9,4 @@ The data from MIMIC for certain ICD9 codes ('4019', '4280', '42731', '41401', '5
 # Utility
 Utility folder contains the code that tests the three utility metrics used in the paper. Adding the run parameters or settings follow [BERT](https://github.com/google-research/bert) classifiers. To change the input check this [function](https://github.com/mominbuet/GenerateEHRs/blob/fcdc74c5f66d9fb2de2ebbb0b57c1ff0e3be4b03/Utility/ICD9Classifier.py#L254). 
 
-Contact azizmma@cs.umanitoba.ca for details
+This is an academic project and the paper is under review. Contact azizmma@cs.umanitoba.ca for details
